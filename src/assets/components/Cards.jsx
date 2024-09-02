@@ -1,5 +1,5 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import {faUsers, faLocationDot, faLifeRing, faMapLocation} from "@fortawesome/free-solid-svg-icons"
+import {faUsers, faLocationDot, faLifeRing, faMapLocation, faFire, faSeedling, faBell, faBoxOpen, faBezierCurve, faShieldHalved, faCompass} from "@fortawesome/free-solid-svg-icons"
 export default function Cards(){
 
     return <>
@@ -9,7 +9,7 @@ export default function Cards(){
             <p className="text-center pt-2 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis natus tempore cupiditate non repudiandae corrupti quo corporis molestiae asperiores, magnam ullam facere delectus distinctio culpa suscipit enim dolor vel. Voluptatum?</p>
         </div>
         
-        <div className="container md:flex my-20">
+        <div className="container md:flex mt-20">
         <div className="md:flex w-full lg:w-1/2">
         <div className="w-full md:w-1/2 flex justify-center">
                 <div className="h-96 w-64 bg-bg1 bg-cover bg-no-repeat bg-center">
@@ -53,6 +53,65 @@ export default function Cards(){
         </div>
           
             
+    </div>
+    </section>
+
+
+
+    <section className="md:mt-32 mt-20 md:flex md:justify-between">
+        <div className="w-full md:w-[37%] flex justify-center">
+            <div className="w-3/4 md:w-full md:ml-20 border-[0.5px]
+             py-5 px-3 rounded-3xl mb-5 shadow-2xl">
+                 <h2 className="text-primary text-font text-3xl">Lorem Ipsum</h2>
+                <p className="mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem blanditiis eligendi ratione explicabo nam sed vel. Placeat animi fuga deleniti ut molestias cum eum pariatur sed, officiis consequatur soluta incidunt?</p>
+            </div>
+        </div>
+        <div className="w-full md:w-1/3 flex justify-center">
+            <div className="w-3/4 md:w-full pt-10 md:pt-5 md:mr-20">
+                <div className="flex justify-between">
+                    <FontAwesomeIcon icon={faFire} className="text-2xl text-red-600 border-[0.5px] p-5 rounded-2xl shadow-2xl"/>
+                    <FontAwesomeIcon icon={faSeedling} className="text-2xl text-green-600 border-[0.5px] p-5 rounded-2xl  shadow-2xl"/>
+                    <FontAwesomeIcon icon={faBell} className="text-2xl text-yellow-400 border-[0.5px] p-5 rounded-2xl shadow-2xl"/>
+                    </div>
+                <div className="flex justify-between mt-8">
+                    <FontAwesomeIcon icon={faBoxOpen} className="text-lg border-[0.5px] p-5 rounded-2xl shadow-2xl text-blue-500 " />
+                    <FontAwesomeIcon icon={faBezierCurve} className="text-lg border-[0.5px] p-5 rounded-2xl shadow-2xl text-gray-600" />
+                    <FontAwesomeIcon icon={faShieldHalved} className="text-lg p-5 w border-[0.5px] rounded-2xl shadow-2xl text-gray-600" />
+                </div>
+            </div> 
+        </div>
+    </section>
+
+
+
+    <section className="md:mt-32 mt-20">
+        <div className="md:w-[37%] flex-col items-center md:items-start md:flex-row md:justify-between flex">
+            <div className="md:w-1/2 w-3/4 md:mr-4 p-4 md:ml-20  border-[0.5px] shadow-2xl my-3 rounded-2xl">
+                <FontAwesomeIcon icon={faLocationDot} className="text-primary text-2xl" />
+                <h3 className="font-bold text-black text-3xl">12</h3>
+                <p className="mt-3">Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div className="md:w-1/2 w-3/4 my-3 h-full p-4 border-[0.5px] shadow-2xl rounded-2xl">
+                <FontAwesomeIcon className="text-lg text-primary" icon={faCompass} />
+                <h3 className="text-dark text-3xl font-bold">412</h3>
+                <p className="mt-3">Lorem, ipsum dolor.</p>
+            </div>
+        </div>
+        
+        <div className="mt-5">
+            <div className="md:w-[100%]  flex">
+                <div className="w-1/4 md:ml-40 border-[0.5px] shadow-2xl p-3 pr-10 rounded-2xl">
+                    <FontAwesomeIcon icon={faLocationDot} className="text-primary text-2xl" />
+                    <h3 className="mt-1">Lorem dolor sit.</h3>
+                    <p className="mt-3">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div className="md:w-1/4 border-[0.5px] shadow-2xl md:ml-3 rounded-2xl p-3">
+                <FontAwesomeIcon className="text-lg text-primary" icon={faCompass} />
+                <h3 className="text-dark text-3xl font-bold">412</h3>
+                <p className="mt-3">Lorem, ipsum dolor.</p>
+
+                </div>
+            </div>
         </div>
     </section>
     </>
