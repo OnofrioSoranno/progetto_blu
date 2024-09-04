@@ -9,6 +9,7 @@ export default {
         bg2: "linear-gradient(0deg, rgba(29,29,29,0.8323704481792717) 25%, rgba(0,0,0,0.2049194677871149) 51%, rgba(43,43,43,0.8463760504201681) 75%), url('/media/2.png')",
         bg3: "linear-gradient(0deg, rgba(29,29,29,0.8323704481792717) 25%, rgba(0,0,0,0.2049194677871149) 51%, rgba(43,43,43,0.8463760504201681) 75%), url('/media/3.png')",
         bg4: "linear-gradient(0deg, rgba(29,29,29,0.8323704481792717) 25%, rgba(0,0,0,0.2049194677871149) 51%, rgba(43,43,43,0.8463760504201681) 75%), url('/media/4.png')",
+        bgFooter: " linear-gradient(0deg, rgba(43,43,43,0.9164040616246498) 24%, rgba(43,43,43,0.5578606442577031) 33%, rgba(255,255,255,1) 98%), url('/media/footer.jpg')",
       },
       backgroundPosition:{
         bgHeader: "0px 104%, bottom, top"
